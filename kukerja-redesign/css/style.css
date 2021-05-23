@@ -1,0 +1,52 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+:root {
+    --primary-color: #cd0a0a;
+    --seconday-color: #ff0019;
+    --white: white;
+}
+
+.v-bg-primary {
+    background-color: var(--primary-color);
+}
+
+.v-btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+    transition: 0.3s;
+}
+
+.v-btn-primary:hover {
+    color: var(--white);
+}
+
+.v-text-primary {
+    color: var(--primary-color);
+}
+
+.v-icon {
+    height: 60px;
+    width: 60px;
+}
+
+.c-pointer {
+    cursor: pointer;
+}
+
+.v-card {
+    transition: 0.3s;
+}
+
+.v-card:hover {
+    transform: translateY(-10px);
+}
+
+a {
+    transition: 0.5s;
+}

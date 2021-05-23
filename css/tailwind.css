@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+
+.wrapper{
+    @apply w-full px-10 lg:px-20
+}
+
+.btn-primary {
+    @apply bg-blue-500 p-2 rounded text-white duration-200 inline-block
+}
+
+.btn-primary:hover{
+    @apply bg-blue-600
+}
+
+.link{
+    @apply text-blue-500
+}
+
+.link:hover {
+    @apply underline
+}
+
+.badge-primary{
+    @apply p-1 bg-blue-200 text-blue-500 inline-block
+}
+
+
+@tailwind utilities;
